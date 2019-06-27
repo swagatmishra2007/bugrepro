@@ -92,7 +92,8 @@ namespace Microsoft.BotBuilderSamples
                 await turnContext.SendActivityAsync("an Error Occurred");
             };
 
-            Use(new MyTypingMiddleware());
+            //Use(new MyTypingMiddleware());
+            Use(new ShowTypingMiddleware());
         }
     }
 

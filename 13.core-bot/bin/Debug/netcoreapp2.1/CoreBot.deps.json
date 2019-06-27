@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "55849e8c3a30c63897e3978efa62322c355a13d0"
+    "signature": "1b9062aaab3a95e7a5a3f43eed5ee3f39a839862"
   },
   "compilationOptions": {
     "defines": [
@@ -25,9 +25,9 @@
       "CoreBot/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.1.1",
-          "Microsoft.Bot.Builder.AI.Luis": "4.4.3",
-          "Microsoft.Bot.Builder.Dialogs": "4.4.3",
-          "Microsoft.Bot.Builder.Integration.AspNet.Core": "4.4.3",
+          "Microsoft.Bot.Builder.AI.Luis": "4.4.5",
+          "Microsoft.Bot.Builder.Dialogs": "4.4.5",
+          "Microsoft.Bot.Builder.Integration.AspNet.Core": "4.4.5",
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.Recognizers.Text.DataTypes.TimexExpression": "1.1.5"
         },
@@ -55,62 +55,62 @@
           "lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Language.LUIS.dll": {}
         }
       },
-      "Microsoft.Bot.Builder/4.4.3": {
+      "Microsoft.Bot.Builder/4.4.5": {
         "dependencies": {
-          "Microsoft.Bot.Connector": "4.4.3",
+          "Microsoft.Bot.Connector": "4.4.5",
           "Microsoft.Extensions.Logging": "2.1.1",
           "SourceLink.Create.CommandLine": "2.8.3"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Bot.Builder.dll": {
-            "assemblyVersion": "4.4.3.0",
-            "fileVersion": "4.4.3.0"
+            "assemblyVersion": "4.4.5.0",
+            "fileVersion": "4.4.5.0"
           }
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Bot.Builder.dll": {}
         }
       },
-      "Microsoft.Bot.Builder.AI.Luis/4.4.3": {
+      "Microsoft.Bot.Builder.AI.Luis/4.4.5": {
         "dependencies": {
           "Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime": "2.1.0",
-          "Microsoft.Bot.Builder": "4.4.3",
-          "Microsoft.Bot.Configuration": "4.4.3",
+          "Microsoft.Bot.Builder": "4.4.5",
+          "Microsoft.Bot.Configuration": "4.4.5",
           "Newtonsoft.Json": "11.0.2",
           "SourceLink.Create.CommandLine": "2.8.3"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Bot.Builder.AI.Luis.dll": {
-            "assemblyVersion": "4.4.3.0",
-            "fileVersion": "4.4.3.0"
+            "assemblyVersion": "4.4.5.0",
+            "fileVersion": "4.4.5.0"
           }
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Bot.Builder.AI.Luis.dll": {}
         }
       },
-      "Microsoft.Bot.Builder.Dialogs/4.4.3": {
+      "Microsoft.Bot.Builder.Dialogs/4.4.5": {
         "dependencies": {
-          "Microsoft.Bot.Builder": "4.4.3",
+          "Microsoft.Bot.Builder": "4.4.5",
           "Microsoft.Recognizers.Text.Choice": "1.1.3",
           "Microsoft.Recognizers.Text.DateTime": "1.1.3",
           "SourceLink.Create.CommandLine": "2.8.3"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Bot.Builder.Dialogs.dll": {
-            "assemblyVersion": "4.4.3.0",
-            "fileVersion": "4.4.3.0"
+            "assemblyVersion": "4.4.5.0",
+            "fileVersion": "4.4.5.0"
           }
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Bot.Builder.Dialogs.dll": {}
         }
       },
-      "Microsoft.Bot.Builder.Integration.AspNet.Core/4.4.3": {
+      "Microsoft.Bot.Builder.Integration.AspNet.Core/4.4.5": {
         "dependencies": {
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.1.1",
-          "Microsoft.Bot.Builder": "4.4.3",
-          "Microsoft.Bot.Configuration": "4.4.3",
+          "Microsoft.Bot.Builder": "4.4.5",
+          "Microsoft.Bot.Configuration": "4.4.5",
           "Microsoft.Extensions.Configuration": "2.1.1",
           "Microsoft.Extensions.Logging": "2.1.1",
           "Microsoft.Net.Http.Headers": "2.1.1",
@@ -119,15 +119,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Bot.Builder.Integration.AspNet.Core.dll": {
-            "assemblyVersion": "4.4.3.0",
-            "fileVersion": "4.4.3.0"
+            "assemblyVersion": "4.4.5.0",
+            "fileVersion": "4.4.5.0"
           }
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Bot.Builder.Integration.AspNet.Core.dll": {}
         }
       },
-      "Microsoft.Bot.Configuration/4.4.3": {
+      "Microsoft.Bot.Configuration/4.4.5": {
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
           "SourceLink.Create.CommandLine": "2.8.3",
@@ -135,17 +135,17 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Bot.Configuration.dll": {
-            "assemblyVersion": "4.4.3.0",
-            "fileVersion": "4.4.3.0"
+            "assemblyVersion": "4.4.5.0",
+            "fileVersion": "4.4.5.0"
           }
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Bot.Configuration.dll": {}
         }
       },
-      "Microsoft.Bot.Connector/4.4.3": {
+      "Microsoft.Bot.Connector/4.4.5": {
         "dependencies": {
-          "Microsoft.Bot.Schema": "4.4.3",
+          "Microsoft.Bot.Schema": "4.4.5",
           "Microsoft.IdentityModel.Clients.ActiveDirectory": "4.5.0",
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.2.1",
           "Microsoft.Rest.ClientRuntime": "2.3.20",
@@ -154,23 +154,23 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Bot.Connector.dll": {
-            "assemblyVersion": "4.4.3.0",
-            "fileVersion": "4.4.3.0"
+            "assemblyVersion": "4.4.5.0",
+            "fileVersion": "4.4.5.0"
           }
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Bot.Connector.dll": {}
         }
       },
-      "Microsoft.Bot.Schema/4.4.3": {
+      "Microsoft.Bot.Schema/4.4.5": {
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
           "SourceLink.Create.CommandLine": "2.8.3"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Bot.Schema.dll": {
-            "assemblyVersion": "4.4.3.0",
-            "fileVersion": "4.4.3.0"
+            "assemblyVersion": "4.4.5.0",
+            "fileVersion": "4.4.5.0"
           }
         },
         "compile": {
@@ -3513,54 +3513,54 @@
       "path": "microsoft.azure.cognitiveservices.language.luis.runtime/2.1.0",
       "hashPath": "microsoft.azure.cognitiveservices.language.luis.runtime.2.1.0.nupkg.sha512"
     },
-    "Microsoft.Bot.Builder/4.4.3": {
+    "Microsoft.Bot.Builder/4.4.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-PrZ+XjcJ1oPBchMSGm8D7ZahROGBHXvKCSJLttCF0uH+ZoUjKT4p1yfd/bNfQYtMajUCOniarE2PbBzFJStRcQ==",
-      "path": "microsoft.bot.builder/4.4.3",
-      "hashPath": "microsoft.bot.builder.4.4.3.nupkg.sha512"
+      "sha512": "sha512-mwmvL6P6EKyBf7shfd6eqcrgSkNUkBcMwVFnP3V6G2vMpDvwIlbjt9ceR3zmb8LnMT4gV962XJH1fXg5ievrJA==",
+      "path": "microsoft.bot.builder/4.4.5",
+      "hashPath": "microsoft.bot.builder.4.4.5.nupkg.sha512"
     },
-    "Microsoft.Bot.Builder.AI.Luis/4.4.3": {
+    "Microsoft.Bot.Builder.AI.Luis/4.4.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-os8JISmG/PLQ4SfV6QAiPX628Yssp0CxlCRREb713z7D00AVFX7IgwnE+DRi4c/WYvCxnbn48qC/9OkOkf8NBg==",
-      "path": "microsoft.bot.builder.ai.luis/4.4.3",
-      "hashPath": "microsoft.bot.builder.ai.luis.4.4.3.nupkg.sha512"
+      "sha512": "sha512-IkJA8sNWVzNO16Wh/2w7qx9TfkxhYrmPZIWGp7RvEPRtXnoMG+cJ9jlfpaMC/zxshrYrOCOr7ihUGOAoGB6glg==",
+      "path": "microsoft.bot.builder.ai.luis/4.4.5",
+      "hashPath": "microsoft.bot.builder.ai.luis.4.4.5.nupkg.sha512"
     },
-    "Microsoft.Bot.Builder.Dialogs/4.4.3": {
+    "Microsoft.Bot.Builder.Dialogs/4.4.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-R/v1ONalJ0/ztIxjyWZUuwkc8kdsaieSHdboSGpeWj2rv0GpLOuveorEHWFq/nwYk05PGsJxWbVmQBO2JLpX3g==",
-      "path": "microsoft.bot.builder.dialogs/4.4.3",
-      "hashPath": "microsoft.bot.builder.dialogs.4.4.3.nupkg.sha512"
+      "sha512": "sha512-xcPjWw90B3tw1Hl/0KFGc8ptetnq8/LIIVbfFozcPFnmbD3/F8QMKga8+gpDcNeaqYQWsMGVjyxYx/IYCKNVgQ==",
+      "path": "microsoft.bot.builder.dialogs/4.4.5",
+      "hashPath": "microsoft.bot.builder.dialogs.4.4.5.nupkg.sha512"
     },
-    "Microsoft.Bot.Builder.Integration.AspNet.Core/4.4.3": {
+    "Microsoft.Bot.Builder.Integration.AspNet.Core/4.4.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-GL4SBYIcvMXNXyL5kOrrcGVoXErVOLezbFjRHkBsqx0KRlLg+7R3wzONNAEKWXBBbfx9NcqbHhTbxSnwhOxV8A==",
-      "path": "microsoft.bot.builder.integration.aspnet.core/4.4.3",
-      "hashPath": "microsoft.bot.builder.integration.aspnet.core.4.4.3.nupkg.sha512"
+      "sha512": "sha512-qjF8tcAXnczT9iLS1N7IOfBqBXpffYDwA/M/DkY0Ao80qyxuBokK5yjlqoib0r61ZYAGdaSaW8MUjDR2Bptk2g==",
+      "path": "microsoft.bot.builder.integration.aspnet.core/4.4.5",
+      "hashPath": "microsoft.bot.builder.integration.aspnet.core.4.4.5.nupkg.sha512"
     },
-    "Microsoft.Bot.Configuration/4.4.3": {
+    "Microsoft.Bot.Configuration/4.4.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-61U2Ujblkq5tCdtnB504lg14Kf9wl5seiAYv73HYredxSNsX14AzmR9USmL1Ofn5EArupqjn9Znvb8daop1yPw==",
-      "path": "microsoft.bot.configuration/4.4.3",
-      "hashPath": "microsoft.bot.configuration.4.4.3.nupkg.sha512"
+      "sha512": "sha512-fhnsixRrAE/lKLBfQuPxZ55D5lyJnqV/wCwphEraSZHbgG7M/h+3CoYgnzvKf4SYgzz24gXR3YMofInQIDgk3g==",
+      "path": "microsoft.bot.configuration/4.4.5",
+      "hashPath": "microsoft.bot.configuration.4.4.5.nupkg.sha512"
     },
-    "Microsoft.Bot.Connector/4.4.3": {
+    "Microsoft.Bot.Connector/4.4.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mvEzB7ssrybxdymPpDroANBNRbqiPB3u2Oqn1x2hVDOX/KlPw+ds3vaYRzfwyCOhRYSTzR/CgdGl0qTss35EgA==",
-      "path": "microsoft.bot.connector/4.4.3",
-      "hashPath": "microsoft.bot.connector.4.4.3.nupkg.sha512"
+      "sha512": "sha512-pOfc+NF91F94ZCGR4FUb3z+Vq+mYAZXqmJsxbt9LXfeZ799Ido82iSCEA1rdw3ngc8onAgdS+SCNxcYY5HIN8A==",
+      "path": "microsoft.bot.connector/4.4.5",
+      "hashPath": "microsoft.bot.connector.4.4.5.nupkg.sha512"
     },
-    "Microsoft.Bot.Schema/4.4.3": {
+    "Microsoft.Bot.Schema/4.4.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IrfMG67zjpuidMoCRr5+qj3plm/ZRzknzkz4eaBE7IlgY0wRtiUPpgH2HL3qmTfyh7iws0zKmC90Jaoj1TjYmw==",
-      "path": "microsoft.bot.schema/4.4.3",
-      "hashPath": "microsoft.bot.schema.4.4.3.nupkg.sha512"
+      "sha512": "sha512-Bx94ZJc+bnPyk6McOnBjSNqUCjoCWQSu+EXp7FEoRSXHvlud+IDa9WWgT4EG4VgfdCJWUfnkaAI3qwFj6j1i0g==",
+      "path": "microsoft.bot.schema/4.4.5",
+      "hashPath": "microsoft.bot.schema.4.4.5.nupkg.sha512"
     },
     "Microsoft.IdentityModel.Clients.ActiveDirectory/4.5.0": {
       "type": "package",
